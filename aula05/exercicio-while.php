@@ -1,6 +1,6 @@
 <select>
   <option selected>-- Selecione o ano --</option>
-  
+
   <?php
 
     $ano = 2022;
