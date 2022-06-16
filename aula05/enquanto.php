@@ -1,8 +1,8 @@
 <?php
 
-$x = 100;
+$x = 1;
 
-while ($x < 101) {
-  echo $x;
+while ($x <= 10) {
+  echo "Vi sitter I ventrilo och spelar dota" . "<br>";
   $x++;
 };
