@@ -12,9 +12,11 @@
   if ($_POST) {
     
     if (isset($_POST['soma'])) {
+      #$soma = $_POST['valor1'] + $_POST['valor2'];
       echo "Olá, o primeiro valor foi: ".$_POST['valor1'];
       echo "</br>Segundo valor: ".$_POST['valor2'];
       echo "<br/><br/><strong>A soma dos dois números é: " . $_POST['valor1'] + $_POST['valor2']."</strong>";
+      // echo "<br/><br/><strong>A soma dos dois números é: {$soma} </strong>";      
     }
 
     if (isset($_POST['subtracao'])) {
